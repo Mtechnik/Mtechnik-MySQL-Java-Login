@@ -16,7 +16,7 @@ public class MySqlConnect {
     public static Connection ConnectDB(){
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn=DriverManager.getConnection("jdbc:mysql://kingsmanscode.com:3306/mtechnik_mybb","mtechnik_phpn1", "January291981");
+            Connection conn=DriverManager.getConnection("jdbc:mysql://nonono.com:3306/mtechnik_mybb","mtechnik_foofoo", "googoogaga");
             JOptionPane.showMessageDialog(null,"Connected to Database");
             return conn;
         }
